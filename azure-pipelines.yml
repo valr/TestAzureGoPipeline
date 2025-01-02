@@ -1,0 +1,19 @@
+# https://aka.ms/yaml
+# https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/go?view=azure-devops&tabs=go-current
+# https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/go-tool-v0?view=azure-pipelines
+# https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/go-v0?view=azure-pipelines
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps: 
+- task: GoTool@0
+  inputs:
+    version: '1.23.4'
+- task: Go@0
+  inputs:
+    command: 'custom'
+    customCommand: 'version'
