@@ -6,8 +6,11 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+# For Microsoft-hosted agent pool
+#pool:
+#  vmImage: ubuntu-latest
+
+pool: TestAgentPool
 
 steps: 
 - task: GoTool@0
