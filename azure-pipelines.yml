@@ -6,10 +6,11 @@
 trigger:
 - main
 
-# For Microsoft-hosted agent pool
+# For Microsoft-hosted agents
 #pool:
 #  vmImage: ubuntu-latest
 
+# For self-hosted agents
 pool: TestAgentPool
 
 steps: 
