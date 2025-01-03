@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/valr/TestGoPipeline/_apis/build/status%2Fvalr.TestAzureGoPipeline?repoName=valr%2Ftest-azure-go-pipeline&branchName=main)](https://dev.azure.com/valr/TestGoPipeline/_build/latest?definitionId=1&repoName=valr%2Ftest-azure-go-pipeline&branchName=main)
